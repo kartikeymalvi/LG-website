@@ -9,9 +9,10 @@
   font-style: normal;
 }
 nav {
-  position: fixed;
-  height: 150px;
+  
+  height: 100px;
   width: 100%;
+  
 }
 .upper_nav {
   height: 70px;
@@ -73,7 +74,7 @@ nav {
   .hero_banner {
     .hero_img {
       img {
-        margin-top: 130px;
+         margin-top: 50px;
         height: 80vh;
         width: 100%;
       }
@@ -81,8 +82,8 @@ nav {
   }
   .hero_heading {
     position: absolute;
-    top: 30%;
-    left: 5%;
+     top: 30%;
+     left: 5%;
     h1 {
       font-size: 50px;
       font-weight: 650;
@@ -102,4 +103,110 @@ nav {
         color: white;
     }
   }
+}
+#picks{
+ 
+height: 100vh;
+
+.picks_heading h1{
+  font-size: 45px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.picks_list{
+  display: flex;
+  gap: 30px;
+  
+}
+.picks_list a{
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+// .picks_cards_main{
+//   height: 50vh;
+  
+// }
+.picks_cards{
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+}
+}
+
+.pin{
+
+  .pin1{
+  background-color: gray;
+  margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+   
+    .pin2{
+      margin-top: 18px;
+      margin-bottom: 18px;
+      margin-left: 12px;
+      margin-right: 12px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      .pincode{
+        display: flex;
+      }
+      .search{
+        display: flex;
+      }
+
+    }
+  }
+}
+.select{
+  .select1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 40px 150px 40px 150px;
+    h4{
+        margin-bottom: 30px;
+    }
+    div{
+        margin-bottom: 30px;
+    }
+    #footerlist{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        font-size: 16px;
+        div{
+            div{
+                margin-bottom: 15px;
+                text-decoration: underline 1px;
+            }
+            #netflixindia{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+#footerselect{
+    width: 100px;
+                height: 30px;
+                background-color: rgba(30, 30, 30, 0.562);
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+}
+#netflixindia{
+    margin-bottom: 50px;
 }
